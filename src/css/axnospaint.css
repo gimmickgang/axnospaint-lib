@@ -70,11 +70,22 @@ body {
 /* 見出しにカーソルを当てた時 */
 #axp_main_div_tab>div>div:hover {
   background: #666;
+  font-weight: bold;
 }
 
 /* 選択されている見出し */
 #axp_main_div_tab>div>div[data-selected="true"] {
   background: #777;
+}
+
+#axp_main_div_tab>div>div[data-idx="1"][data-selected="true"] {
+  background: #eee;
+  color: #111;
+}
+
+#axp_main_div_tab>div>div[data-idx="2"][data-selected="true"] {
+  background: #eee;
+  color: #333;
 }
 
 /* タブ横のテキスト */

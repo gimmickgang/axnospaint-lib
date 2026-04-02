@@ -64,6 +64,7 @@
 .axpc_config_section {
   margin-bottom: 50px;
   color: #111;
+  scroll-margin-block: 18px;
 }
 
 /* 本文：セクション見出し */

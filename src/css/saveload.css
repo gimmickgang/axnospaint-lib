@@ -20,6 +20,9 @@
   margin: 8px;
   padding: 8px;
   border-radius: 5px;
+  display: grid;
+  max-height: calc(100% - 16px);
+  grid-template-rows: auto 1fr auto;
 }
 
 /* セーブスロットのHTMLを挿入するポイント */
@@ -31,6 +34,7 @@
   flex-wrap: wrap;
   padding: 8px;
   cursor: pointer;
+  overflow-y: auto;
 }
 
 /* 閉じるボタン */
